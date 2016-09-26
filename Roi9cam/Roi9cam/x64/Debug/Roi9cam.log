@@ -1,0 +1,7 @@
+﻿  소스.cpp
+소스.cpp(36): warning C4101: 'matHeader' : unreferenced local variable
+소스.cpp(48): warning C4101: 'baseLine' : unreferenced local variable
+소스.cpp(219): warning C4101: 'k' : unreferenced local variable
+소스.cpp(345): warning C4101: 'i' : unreferenced local variable
+소스.cpp(345): warning C4101: 'j' : unreferenced local variable
+  Roi9cam.vcxproj -> C:\Users\taeya\Desktop\영상처리(observer)\Roi9cam\x64\Debug\Roi9cam.exe

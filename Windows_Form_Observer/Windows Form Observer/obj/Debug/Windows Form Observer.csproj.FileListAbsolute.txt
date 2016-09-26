@@ -1,0 +1,14 @@
+c:\users\administrator.cdr-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\bin\Debug\Windows Form Observer.exe.config
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\bin\Debug\Windows Form Observer.exe
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\bin\Debug\Windows Form Observer.pdb
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\obj\Debug\Windows_Form_Observer.Form1.resources
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\obj\Debug\Windows_Form_Observer.Properties.Resources.resources
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\obj\Debug\Windows Form Observer.csproj.GenerateResource.Cache
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\obj\Debug\Windows Form Observer.exe
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\obj\Debug\Windows Form Observer.pdb
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\obj\Debug\Windows Form Observer.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\bin\Debug\DirectShowLib-2005.dll
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\bin\Debug\AForge.Video.dll
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\bin\Debug\AForge.dll
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\bin\Debug\AForge.Video.xml
+C:\Users\Administrator.CDR-01509170919\documents\visual studio 2015\Projects\Windows Form Observer\Windows Form Observer\bin\Debug\AForge.xml

@@ -1,0 +1,11 @@
+﻿  소스.cpp
+c:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\users\taeya\desktop\영상처리(observer)\roi9cam\roi9cam\소스.cpp(151): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\taeya\desktop\영상처리(observer)\roi9cam\roi9cam\소스.cpp(81): warning C4101: 'baseLine' :참조되지 않은 지역 변수입니다.
+c:\users\taeya\desktop\영상처리(observer)\roi9cam\roi9cam\소스.cpp(244): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+c:\users\taeya\desktop\영상처리(observer)\roi9cam\roi9cam\소스.cpp(244): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+c:\users\taeya\desktop\영상처리(observer)\roi9cam\roi9cam\소스.cpp(293): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+소스.obj : error LNK2019: "class cv::Mat __cdecl cv::cvarrToMat(void const *,bool,bool,int,class cv::AutoBuffer<double,136> *)" (?cvarrToMat@cv@@YA?AVMat@1@PBX_N1HPAV?$AutoBuffer@N$0II@@1@@Z) 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+C:\Users\taeya\Desktop\영상처리(observer)\Roi9cam\Debug\Roi9cam.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

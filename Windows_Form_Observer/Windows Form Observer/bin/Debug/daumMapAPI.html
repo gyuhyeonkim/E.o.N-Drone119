@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello, World!</title>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no">
+<style type="text/css">
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#map { width: 100%; height: 100% }
+</style>
+<p id="result"></p>
+<script type="text/javascript" src="http://apis.daum.net/maps/maps3.js?apikey=bf4aa6159e8655c234d7115318811536"></script>
+<script type="text/javascript">
+ 
+ var marker;
+ var infowindow;
+ var Dmarker;
+ var infowindow1;
+ window.onload = function() {
+
+ var position = new daum.maps.LatLng(37.30024, 127.03997); 
+ var map = new daum.maps.Map(document.getElementById('map'), {
+  center: position,
+  level: 3,
+  mapTypeId: daum.maps.MapTypeId.HYBRID
+ });
+
+ marker = new daum.maps.Marker({
+  position: position
+ });
+ 
+ var Dposition = new daum.maps.LatLng(37.29861, 127.03961);
+ Dmarker = new daum.maps.Marker({
+            position: Dposition
+        });
+
+ Dmarker.setMap(map);
+ marker.setMap(map);
+
+ infowindow = new daum.maps.InfoWindow({
+  content: '<div style="width:150px;text-align:center;padding:6px 0;">Drone</div>'
+ });
+ infowindow1 = new daum.maps.InfoWindow({
+  content: '<div style="width:150px;text-align:center;padding:6px 0;">Destination</div>'
+ });
+ infowindow.open(map, marker);
+ infowindow1.open(map, Dmarker);
+
+ daum.maps.event.addListener(map, 'click', function(mouseEvent) {        
+    
+    var latlng = mouseEvent.latLng;
+    var message = '위도 : ' + latlng.getLat() + ' ';
+    message += '경도 : ' + latlng.getLng() + '';
+    
+    var resultDiv = document.getElementById('result'); 
+    resultDiv.innerHTML = message;
+    
+    window.external.CallForm(latlng.getLat(), latlng.getLng());
+});
+
+ 
+ };
+ 
+ function GetPoint(lat, lng){
+ 	var reposition = new daum.maps.LatLng(lat, lng);
+ 	marker.setPosition(reposition);
+	infowindow.setPosition(reposition);
+ }
+ function DGetPoint(lat, lng){
+ 	var reposition = new daum.maps.LatLng(lat, lng);
+ 	Dmarker.setPosition(reposition);
+ 	infowindow1.setPosition(reposition);
+ }
+
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html> 
